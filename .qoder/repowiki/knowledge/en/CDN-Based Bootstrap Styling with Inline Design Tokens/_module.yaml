@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: frontend_style
+title: CDN-Based Bootstrap Styling with Inline Design Tokens
+scope: []
+source_files:
+    - app/Views/frontend/layout/header.php
+    - app/Views/frontend/layout/footer.php
+    - app/Views/admin/layout/main.php
+    - app/Views/admin/auth/login.php
+depends_on: []
+related_to: []

@@ -1,0 +1,1 @@
+A CodeIgniter 4-based content management system for managing company profile data, services, gallery, and admin users.

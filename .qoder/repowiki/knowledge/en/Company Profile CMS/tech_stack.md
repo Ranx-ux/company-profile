@@ -1,0 +1,1 @@
+PHP 8.2+ with CodeIgniter 4 framework, MySQL database, and Composer for dependency management.

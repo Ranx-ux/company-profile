@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: error_handling
+title: CodeIgniter 4 Exception Handling and Error Presentation
+scope: []
+source_files:
+    - app/Config/Exceptions.php
+    - system/CodeIgniter.php
+    - app/Views/errors/html/error_404.php
+    - app/Views/errors/html/error_exception.php
+    - app/Controllers/BaseController.php
+depends_on: []
+related_to: []

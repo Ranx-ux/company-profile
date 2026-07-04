@@ -1,0 +1,5 @@
+- Follows CodeIgniter 4 MVC pattern with `app/Controllers`, `app/Models`, and `app/Views`.
+- Separates public frontend routes from protected admin routes using `app/Filters/AuthFilter.php` registered as 'auth' in `app/Config/Filters.php`.
+- Admin authentication relies on session-based state (`admin_logged_in`) managed by `App\Controllers\Admin\Auth`.
+- Database schema is defined in `db_company.sql` and mirrored by migrations in `app/Database/Migrations`.
+- Configuration is centralized in `app/Config`, with routing defined in `app/Config/Routes.php`.

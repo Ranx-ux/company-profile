@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: build_system
+title: CodeIgniter 4 Manual Build & Deployment
+scope: []
+source_files:
+    - composer.json
+    - README.md
+    - spark
+    - public/index.php
+    - db_company.sql
+    - .env
+depends_on: []
+related_to: []

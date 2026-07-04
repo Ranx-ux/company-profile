@@ -1,0 +1,14 @@
+schema_version: 1
+module_path: logging_system
+title: CodeIgniter 4 PSR-3 Logging System with File-Based Handler
+scope: []
+source_files:
+    - app/Config/Logger.php
+    - app/Config/Exceptions.php
+    - system/Log/Logger.php
+    - system/Log/Handlers/FileHandler.php
+    - system/Log/Handlers/HandlerInterface.php
+    - system/Common.php
+    - system/Config/Services.php
+depends_on: []
+related_to: []

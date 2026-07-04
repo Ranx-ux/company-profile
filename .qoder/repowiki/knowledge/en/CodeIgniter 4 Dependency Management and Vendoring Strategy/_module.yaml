@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: dependency_management
+title: CodeIgniter 4 Dependency Management and Vendoring Strategy
+scope: []
+source_files:
+    - composer.json
+    - app/Config/Autoload.php
+    - system/ComposerScripts.php
+    - system/ThirdParty/Escaper/Escaper.php
+    - app/Config/Constants.php
+depends_on: []
+related_to: []

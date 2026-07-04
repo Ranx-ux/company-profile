@@ -1,0 +1,17 @@
+schema_version: 1
+module_path: configuration_system
+title: CodeIgniter 4 Configuration System with .env Layering
+scope: []
+source_files:
+    - .env
+    - app/Config/App.php
+    - app/Config/Database.php
+    - app/Config/Autoload.php
+    - app/Config/Feature.php
+    - app/Config/Encryption.php
+    - system/Config/BaseConfig.php
+    - system/Config/DotEnv.php
+    - system/Boot.php
+    - public/index.php
+depends_on: []
+related_to: []
